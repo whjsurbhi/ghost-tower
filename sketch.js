@@ -104,7 +104,7 @@ function spawnDoors() {
     
     //add each door to the group
     doorsGroup.add(door);
-    invisibleBlock.debug = true;
+    invisibleBlock.debug = false;
     climbersGroup.add(climber);
     invisibleBlockGroup.add(invisibleBlock);
   }
